@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="result">
+        <div class="buttons">
+          <button id="seven" onclick="displayNumber(7)">7</button>
+          <button id="eight" onclick="displayNumber(8)">8</button>
+          <button id="nine" onclick="displayNumber(9)">9</button>
+          <button id="div" onclick="displayNumber('/')" class="opt">/</button>
+          <button id="4" onclick="displayNumber(4)">4</button>
+          <button id="5" onclick="displayNumber(5)">5</button>
+          <button id="6" onclick="displayNumber(6)">6</button>
+          <button id="mul" onclick="displayNumber('*')" class="opt">*</button>
+          <button id="1" onclick="displayNumber(1)">1</button>
+          <button id="2" onclick="displayNumber(2)">2</button>
+          <button id="3" onclick="displayNumber(3)">3</button>
+          <button id="sub" onclick="displayNumber('-')" class="opt">-</button>
+          <button id="doublezero" onclick="displayNumber('00')" class="opt">00</button>
+          <button id="zero" onclick="displayNumber(0)" class="opt">0</button>
+          <button id="dot" onclick="displayNumber('.')" class="opt">.</button>
+          <button id="add" onclick="displayNumber('+')" class="opt">+</button>
+          <button id="ac" onclick="clearBox()">AC</button>
+          <button id="del" onclick="removelastitem()">del</button>
+          <button id="modulus" onclick="displayNumber('%')" class="opt">%</button>
+          <button id="equal" onclick="evaluateExp()">=</button>
+        </div>
+      </div>
+    </body>
+    </html>
+</body>
+</html>
